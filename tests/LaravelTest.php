@@ -26,6 +26,7 @@ class LaravelTest extends TestCase
         // Get request the route
         $this->get(config('healthy.route'))
             ->assertSeeText('OK')
+            ->assertHeader('Content-Type', 'text/plain; charset=UTF-8')
             ->assertStatus(200);
     }
 }
