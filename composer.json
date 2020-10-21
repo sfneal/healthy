@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sfneal\\Healthy\\HealthyServiceProvider"
+                "Sfneal\\Healthy\\Providers\\HealthyServiceProvider"
             ]
         }
     },
