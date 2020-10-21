@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Sfneal\Healthy\Providers;
 
 use Illuminate\Support\Facades\Route;
