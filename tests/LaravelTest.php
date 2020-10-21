@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Sfneal\Healthy\Tests;
 
 use Illuminate\Foundation\Application;
@@ -10,7 +9,7 @@ use Sfneal\Healthy\Providers\HealthyServiceProvider;
 class LaravelTest extends TestCase
 {
     /**
-     * Register package service providers
+     * Register package service providers.
      *
      * @param Application $app
      * @return array|string
