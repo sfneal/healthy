@@ -17,8 +17,11 @@ composer require sfneal/healthy
 
 ## Usage
 
+Determine your Laravel Application is up & running by sending a ping or get request to the '/health' uri.  Useful for load balanced deployments with periodic uptime checks.
+
+To change the route or uri used publish the config file. 
 ``` php
-// Usage description here
+php artisan vendor:publish --provider="Sfneal\Healthy\Providers\HealthServiceProvider"
 ```
 
 ### Testing
