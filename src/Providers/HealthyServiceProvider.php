@@ -21,7 +21,7 @@ class HealthyServiceProvider extends ServiceProvider
         ], 'config');
 
         // Map health check paths
-        Route::get(config('healthy.route'), HealthyController::class)->name('health');
+        Route::get(config('healthy.uri'), HealthyController::class)->name(config('healthy.route'));
     }
 
     /**

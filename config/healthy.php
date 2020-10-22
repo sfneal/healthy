@@ -2,7 +2,10 @@
 
 return [
 
-    // Set the health route
-    'route' => '/health',
+    // Health route
+    'route' => 'health',
+
+    // Health uri
+    'uri' => '/health',
 
 ];
