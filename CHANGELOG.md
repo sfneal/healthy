@@ -12,3 +12,7 @@ All notable changes to `healthy` will be documented in this file
 
 ## 0.1.2 - 2020-10-22
 - cut php5 & 7.0-7.1 support & fix Travis CI config
+
+## 0.1.3 - 2020-10-22
+- add 'uri' key to config file
+- fix readme
