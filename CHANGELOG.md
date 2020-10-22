@@ -11,4 +11,4 @@ All notable changes to `healthy` will be documented in this file
 
 
 ## 0.1.2 - 2020-10-22
-- cut php5 support & fix Travis CI config
+- cut php5 & 7.0-7.1 support & fix Travis CI config
