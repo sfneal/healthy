@@ -19,4 +19,4 @@ All notable changes to `healthy` will be documented in this file
 
 
 ## 0.2.1 - 2020-10-22
-- fix artisan vendor publish command syntax erro
+- fix artisan vendor publish command syntax error
