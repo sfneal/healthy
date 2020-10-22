@@ -8,3 +8,7 @@ All notable changes to `healthy` will be documented in this file
 
 ## 0.1.1 - 2020-10-21
 - fix HealthyServiceProvider's namespace
+
+
+## 0.1.2 - 2020-10-22
+- cut php5 support & fix Travis CI config
