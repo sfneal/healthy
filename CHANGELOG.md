@@ -16,3 +16,7 @@ All notable changes to `healthy` will be documented in this file
 ## 0.2.0 - 2020-10-22
 - add 'uri' key to config file
 - fix readme
+
+
+## 0.2.1 - 2020-10-22
+- fix artisan vendor publish command syntax erro
