@@ -21,7 +21,7 @@ Determine your Laravel Application is up & running by sending a ping or get requ
 
 To change the route or uri used publish the config file. 
 ``` php
-php artisan vendor:publish --provider="Sfneal\Healthy\Providers\HealthServiceProvider"
+php artisan vendor:publish --provider="Sfneal\Healthy\Providers\HealthyServiceProvider"
 ```
 
 ### Testing
