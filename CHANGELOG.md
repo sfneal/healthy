@@ -21,3 +21,7 @@ All notable changes to `healthy` will be documented in this file
 
 ## 0.2.1 - 2020-10-22
 - fix artisan vendor publish command syntax error
+
+
+## 0.2.2 - 2020-12-02
+- fix min phpunit version
