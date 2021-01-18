@@ -1,7 +1,8 @@
 # Healthy
 
+[![Packagist PHP support](https://img.shields.io/packagist/php-v/sfneal/healthy)](https://packagist.org/packages/sfneal/healthy)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/healthy.svg?style=flat-square)](https://packagist.org/packages/sfneal/healthy)
-[![Build Status](https://img.shields.io/travis/sfneal/healthy/master.svg?style=flat-square)](https://travis-ci.org/sfneal/healthy)
+[![Build Status](https://travis-ci.com/sfneal/healthy.svg?branch=master&style=flat-square)](https://travis-ci.com/sfneal/healthy)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/healthy.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/healthy)
 [![Total Downloads](https://img.shields.io/packagist/dt/sfneal/healthy.svg?style=flat-square)](https://packagist.org/packages/sfneal/healthy)
 
