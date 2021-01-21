@@ -30,3 +30,8 @@ All notable changes to `healthy` will be documented in this file
 ## 0.3.0 - 2020-12-11
 - add support for php8
 - bump min laravel/framework version
+
+
+## 1.0.0 - 2021-01-21
+- initial production release
+- bump min sfneal/controller versions
