@@ -3,7 +3,8 @@
 [![Packagist PHP support](https://img.shields.io/packagist/php-v/sfneal/healthy)](https://packagist.org/packages/sfneal/healthy)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/healthy.svg?style=flat-square)](https://packagist.org/packages/sfneal/healthy)
 [![Build Status](https://travis-ci.com/sfneal/healthy.svg?branch=master&style=flat-square)](https://travis-ci.com/sfneal/healthy)
-[![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/healthy.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/healthy)
+[![StyleCI](https://github.styleci.io/repos/306058642/shield?branch=master)](https://github.styleci.io/repos/306058642?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sfneal/healthy/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sfneal/healthy/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/sfneal/healthy.svg?style=flat-square)](https://packagist.org/packages/sfneal/healthy)
 
 Provides health check routes to Laravel applications for determining if the app is "up & running".
