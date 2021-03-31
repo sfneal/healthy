@@ -6,9 +6,9 @@ use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Sfneal\Controllers\AbstractController;
+use Sfneal\Controllers\Controller;
 
-class HealthyController extends AbstractController
+class HealthyController extends Controller
 {
     /**
      * Return a 200 response code when the application is up & running.

@@ -40,3 +40,7 @@ All notable changes to `healthy` will be documented in this file
 ## 1.0.1 - 2021-03-30
 - fix sfneal packages version syntax
 - fix Travis CI config to enable code coverage uploads
+
+
+## 1.1.0 - 2021-03-31
+- bump sfneal/controllers min version to 2.0
