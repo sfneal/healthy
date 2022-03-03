@@ -13,8 +13,7 @@ class HealthyController extends Controller
     /**
      * Return a 200 response code when the application is up & running.
      *
-     * @param Request $request
-     *
+     * @param  Request  $request
      * @return Application|ResponseFactory|Response
      */
     public function __invoke(Request $request)
