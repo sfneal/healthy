@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+    healthy:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: "stephenneal/healthy:${TAG}"
+        env_file: .env.docker
+        container_name: healthy
+        tty: true
+        volumes:
+            - healthy:/var/www
+        depends_on:
+            - healthy-cache
+        networks:
+            - healthy-network
+
+    healthy-cache:
+        container_name: healthy-cache
+        image: redis:6-alpine
+        command: ["redis-server", "--appendonly yes", "--port 9576"]
+        ports:
+            - "9576:9576"
+        volumes:
+            - healthy-cache:/data
+        networks:
+            - healthy-network
+
+
+# Networks
+networks:
+    healthy-network:
+        driver: bridge
+
+# Volumes
+volumes:
+    healthy:
+    healthy-cache:
