@@ -21,8 +21,8 @@
         "sfneal/controllers": "^2.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^3.8|^6.24.1|^7.0",
-        "phpunit/phpunit": "^8.0 <8.5.12|^9.3",
+        "orchestra/testbench": "^4.0|^6.24.1|^7.0",
+        "phpunit/phpunit": "^7.5|^8.0 <8.5.12|^9.3",
         "scrutinizer/ocular": "^1.8"
     },
     "extra": {
