@@ -44,3 +44,8 @@ All notable changes to `healthy` will be documented in this file
 
 ## 1.1.0 - 2021-03-31
 - bump sfneal/controllers min version to 2.0
+
+
+## 1.1.1 - 2022-03-03
+- optimize composer dependency constraints
+- add use of GitHub actions
