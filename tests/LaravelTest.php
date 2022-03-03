@@ -11,7 +11,7 @@ class LaravelTest extends TestCase
     /**
      * Register package service providers.
      *
-     * @param Application $app
+     * @param  Application  $app
      * @return array|string
      */
     protected function getPackageProviders($app)
