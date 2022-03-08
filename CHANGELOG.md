@@ -49,3 +49,8 @@ All notable changes to `healthy` will be documented in this file
 ## 1.1.1 - 2022-03-03
 - optimize composer dependency constraints
 - add use of GitHub actions
+
+
+## 2.0.0 - 2022-03-08
+- cut support for php7.2
+- fix laravel/framework version constraint requiring a version with vulnerabilities

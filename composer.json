@@ -16,8 +16,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
-        "laravel/framework": ">=7.24 <7.29|>=8.0",
+        "php": ">=7.3",
+        "laravel/framework": ">=8.0",
         "sfneal/controllers": "^2.0|^3.0"
     },
     "require-dev": {
